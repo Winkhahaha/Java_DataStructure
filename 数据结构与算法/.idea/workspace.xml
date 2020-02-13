@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d0e055d-e90d-4667-b09f-adb3bc651633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/DoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/Josephu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/数据结构与算法/字符串匹配算法/RK匹配算法.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/数据结构与算法/字符串匹配算法/RK匹配算法.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/DoubleLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,24 +57,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6427" />
-          <entry key="txt" value="21" />
+          <entry key="java" value="7690" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6427" />
-          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="JAVA" value="7690" />
+          <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -85,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/链表/SingleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="176" column="23" selection-start-line="176" selection-start-column="23" selection-end-line="176" selection-end-column="23" />
+            <state relative-caret-position="146">
+              <caret line="181" column="50" lean-forward="true" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,11 +93,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/链表/DoubleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="93" column="89" selection-start-line="93" selection-start-column="89" selection-end-line="93" selection-end-column="89" />
+            <state relative-caret-position="319">
+              <caret line="169" column="30" lean-forward="true" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/链表/Josephu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding>
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#1796#1797#0" expanded="true" />
+                <element signature="e#1824#1825#0" expanded="true" />
+                <element signature="e#1854#1855#0" expanded="true" />
+                <element signature="e#1881#1882#0" expanded="true" />
+                <element signature="e#1920#1921#0" expanded="true" />
+                <element signature="e#1952#1953#0" expanded="true" />
+                <element signature="e#1978#1979#0" expanded="true" />
+                <element signature="e#2003#2004#0" expanded="true" />
+                <element signature="e#2036#2037#0" expanded="true" />
+                <element signature="e#2064#2065#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/队列/ArrayQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/链表/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/链表/DoubleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/链表/Josephu.java" />
       </list>
     </option>
   </component>
@@ -186,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581578782762" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581587714500" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -207,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoubleLinkedList">
+  <component name="RunManager" selected="Application.Josephu">
     <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="队列.ArrayQueueDemo" />
       <module name="数据结构与算法" />
@@ -247,6 +270,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Josephu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="链表.Josephu" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="链表.SingleLinkedList" />
       <module name="数据结构与算法" />
@@ -260,33 +296,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparesArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="稀疏数组.SparesArray" />
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="稀疏数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.SparesArray" />
       <item itemvalue="Application.ArrayQueueDemo" />
       <item itemvalue="Application.CircleArrayQueueDemo" />
       <item itemvalue="Application.SingleLinkedList" />
       <item itemvalue="Application.DoubleLinkedList" />
+      <item itemvalue="Application.Josephu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Josephu" />
         <item itemvalue="Application.DoubleLinkedList" />
         <item itemvalue="Application.SingleLinkedList" />
         <item itemvalue="Application.CircleArrayQueueDemo" />
         <item itemvalue="Application.ArrayQueueDemo" />
-        <item itemvalue="Application.SparesArray" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +329,7 @@
       <workItem from="1581486758507" duration="1257000" />
       <workItem from="1581569777699" duration="5781000" />
       <workItem from="1581576168294" duration="52000" />
-      <workItem from="1581576275203" duration="2342000" />
+      <workItem from="1581576275203" duration="11446000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组">
       <created>1580463826507</created>
@@ -329,11 +352,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581413969004</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="单向链表">
+      <created>1581578841569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581578841569</updated>
+    </task>
+    <task id="LOCAL-00005" summary="双向链表">
+      <created>1581578858372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581578858372</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49909000" />
+    <option name="totallyTimeSpent" value="59013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -349,7 +386,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24255319" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.52056736" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42269504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -357,7 +394,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,7 +426,8 @@
     <MESSAGE value="稀疏数组" />
     <MESSAGE value="数组实现队列和环形队列" />
     <MESSAGE value="单向链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="单向链表" />
+    <MESSAGE value="双向链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="双向链表" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Scanner.java">
@@ -436,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/链表/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="176" column="23" selection-start-line="176" selection-start-column="23" selection-end-line="176" selection-end-column="23" />
+        <state relative-caret-position="146">
+          <caret line="181" column="50" lean-forward="true" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -446,8 +484,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/链表/DoubleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="93" column="89" selection-start-line="93" selection-start-column="89" selection-end-line="93" selection-end-column="89" />
+        <state relative-caret-position="319">
+          <caret line="169" column="30" lean-forward="true" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/链表/Josephu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#1920#1921#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
