@@ -18,6 +18,8 @@ public class SingleLinkedList {
         linkedList.addByOrder(n3);
         linkedList.addByOrder(n2);
         linkedList.addByOrder(n5);
+        linkedList.addByOrder(n6);
+        linkedList.addByOrder(n1);
 
 //        linkedList.add(n1);
 //        linkedList.add(n4);
@@ -33,14 +35,14 @@ public class SingleLinkedList {
 //        linkedList.delete(n4);
         System.out.println("正常输出:");
         linkedList.print();
-        System.out.println("有效节点个数:" + getNodeLength(linkedList.getHead()));
+        // System.out.println("有效节点个数:" + getNodeLength(linkedList.getHead()));
 //        Scanner sc = new Scanner(System.in);
 //        int index = sc.nextInt();
 //        System.out.println("倒数第"+index+"个节点为:"+findLastIndexNode(linkedList.getHead(),index));
-        System.out.println("反转后:");
+        //System.out.println("反转后:");
         //reverse(linkedList.getHead());
         //linkedList.print();
-        reverseByStack(linkedList.getHead());
+        // reverseByStack(linkedList.getHead());
 
     }
 
@@ -167,21 +169,23 @@ class MyLinkedList {
 
     // 进行有序无重复插入
     public void addByOrder(Node node) {
-
         // temp是位于添加位置的前一个节点
         Node temp = head;
         while (temp.next != null) {
             if (temp.next.id == node.id) {
                 System.out.println("要插入的id已经存在!");
+                return;
+            }
+            if (temp.next.id > node.id && temp.id < node.id) {        //找到了位置,直接添加到temp后面
                 break;
             }
-            if (temp.next.id > node.id) {        //找到了位置,直接添加到temp后面
-                break;
-            }
-            temp = temp.next;
+            temp = temp.next;       // 没有找到位置,next
         }
-        // 断开,插入
-        node.next = temp.next;
+        if (temp.next != null) {
+            // 断开,插入
+            node.next = temp.next;
+        }
+        // 当temp为尾节点即temp.next == null时,直接尾插
         temp.next = node;
 
     }
