@@ -16,7 +16,8 @@ public class 插入排序 {
         for (int i = 0; i < a.length - 1; i++) {
             // 定义待插入的数
             int insertVal = a[i + 1];
-            int beforeIndex = i;  // 待插入数的前下标
+            // 待插入数的前一个下标
+            int beforeIndex = i;
             // 找到要插入的位置
             while (beforeIndex >= 0 && insertVal < a[beforeIndex]) {
                 a[beforeIndex + 1] = a[beforeIndex];
