@@ -9,6 +9,7 @@ public class DoubleLinkedList {
         DoubleNode n5 = new DoubleNode(5, "e");
         DoubleNode n6 = new DoubleNode(5, "f");
 
+
         // 创建双向链表
         MyDoubleLinkedList doubleLinkedList = new MyDoubleLinkedList();
 //        doubleLinkedList.add(n1);
@@ -24,15 +25,15 @@ public class DoubleLinkedList {
         doubleLinkedList.addByOrder(n5);
         doubleLinkedList.addByOrder(n4);
         doubleLinkedList.print();
-        System.out.println(n3.pre);
+        System.out.println("测试n3的前驱节点:"+n3.pre);
         // 修改测试
-//        doubleLinkedList.update(n6);
-//        System.out.println("修改后:");
-//        doubleLinkedList.print();
-//        //删除修改
-//        doubleLinkedList.delete(n3);
-//        System.out.println("删除后:");
-//        doubleLinkedList.print();
+        doubleLinkedList.update(n6);
+        System.out.println("修改后:");
+        doubleLinkedList.print();
+        //删除修改
+        doubleLinkedList.delete(n3);
+        System.out.println("删除后:");
+        doubleLinkedList.print();
 
     }
 }
