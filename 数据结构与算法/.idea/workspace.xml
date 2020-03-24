@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d0e055d-e90d-4667-b09f-adb3bc651633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/查找算法/二分查找.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/查找算法/插值查找.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/查找算法/斐波拉契查找.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/查找算法/线性查找.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/递归/斐波拉契数列.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/数据结构与算法/字符串匹配算法/RK匹配算法.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/数据结构与算法/字符串匹配算法/RK匹配算法.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/递归/Queen8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/递归/Queen8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/DoubleLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,62 +69,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="55" />
+          <entry key="java" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="18074" />
-          <entry key="txt" value="46" />
+          <entry key="java" value="18092" />
+          <entry key="txt" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18074" />
-          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="JAVA" value="18092" />
+          <entry key="PLAIN_TEXT" value="65" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/查找算法/线性查找.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/查找算法/二分查找.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/查找算法/插值查找.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/递归/斐波拉契数列.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/查找算法/斐波拉契查找.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding>
+                <element signature="e#76#77#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/查找算法/二分查找.java" />
         <option value="$PROJECT_DIR$/src/查找算法/插值查找.java" />
         <option value="$PROJECT_DIR$/src/查找算法/斐波拉契查找.java" />
+        <option value="$PROJECT_DIR$/src/递归/斐波拉契数列.java" />
       </list>
     </option>
   </component>
@@ -232,6 +203,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="查找算法" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="递归" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -243,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585036433745" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585036505737" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SpringBoot_Blog/blog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -257,6 +240,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="查找算法" />
       <recent name="排序" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\代码仓库\Java_DataStructure\数据结构与算法\src\递归" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -544,7 +530,7 @@
       <workItem from="1584250005182" duration="1167000" />
       <workItem from="1584448671922" duration="602000" />
       <workItem from="1584588697942" duration="591000" />
-      <workItem from="1585025891926" duration="10052000" />
+      <workItem from="1585025891926" duration="10294000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组">
       <created>1580463826507</created>
@@ -616,17 +602,45 @@
       <option name="project" value="LOCAL" />
       <updated>1582731490669</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="查找算法">
+      <created>1585036396070</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585036396070</updated>
+    </task>
+    <task id="LOCAL-00012" summary="递归问题">
+      <created>1585036432620</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585036432620</updated>
+    </task>
+    <task id="LOCAL-00013" summary="双向链表">
+      <created>1585036451523</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585036451523</updated>
+    </task>
+    <task id="LOCAL-00014" summary="RK匹配算法">
+      <created>1585036486055</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585036486055</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157646000" />
+    <option name="totallyTimeSpent" value="157888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1300268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1300268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -635,7 +649,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29787233" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29787233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18297872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -678,12 +692,15 @@
     <MESSAGE value="稀疏数组" />
     <MESSAGE value="数组实现队列和环形队列" />
     <MESSAGE value="单向链表" />
-    <MESSAGE value="双向链表" />
     <MESSAGE value="约瑟夫环问题" />
     <MESSAGE value="栈" />
     <MESSAGE value="递归&#10;八皇后&#10;迷宫问题" />
     <MESSAGE value="排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序" />
+    <MESSAGE value="查找算法" />
+    <MESSAGE value="递归问题" />
+    <MESSAGE value="双向链表" />
+    <MESSAGE value="RK匹配算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="RK匹配算法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Scanner.java">
@@ -779,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/DoubleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/栈/MyStackByLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-783">
@@ -874,6 +884,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/链表/DoubleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1392">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/递归/斐波拉契数列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
