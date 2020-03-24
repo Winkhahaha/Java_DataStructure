@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d0e055d-e90d-4667-b09f-adb3bc651633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/链表/Josephu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/查找算法/二分查找.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/查找算法/插值查找.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/查找算法/斐波拉契查找.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/查找算法/线性查找.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/数据结构与算法/字符串匹配算法/RK匹配算法.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/数据结构与算法/字符串匹配算法/RK匹配算法.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/递归/Queen8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/递归/Queen8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/链表/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/DoubleLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,6 +18,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/$.ic" NAME="插入排序 Coverage Results" MODIFIED="1582096863797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>排序.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-808470347">
@@ -47,34 +60,40 @@
     <session id="1989655583">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="8" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7690" />
-          <entry key="txt" value="24" />
+          <entry key="java" value="18074" />
+          <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7690" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="JAVA" value="18074" />
+          <entry key="PLAIN_TEXT" value="46" />
         </counts>
       </usages-collector>
     </session>
@@ -82,45 +101,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/SingleLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/查找算法/线性查找.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="181" column="50" lean-forward="true" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/DoubleLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/查找算法/二分查找.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="169" column="30" lean-forward="true" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+            <state relative-caret-position="-216">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/查找算法/插值查找.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/链表/Josephu.java">
+        <entry file="file://$PROJECT_DIR$/src/查找算法/斐波拉契查找.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-              <folding>
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#1796#1797#0" expanded="true" />
-                <element signature="e#1824#1825#0" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-                <element signature="e#1881#1882#0" expanded="true" />
-                <element signature="e#1920#1921#0" expanded="true" />
-                <element signature="e#1952#1953#0" expanded="true" />
-                <element signature="e#1978#1979#0" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
-                <element signature="e#2036#2037#0" expanded="true" />
-                <element signature="e#2064#2065#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -134,6 +145,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="WARN_ABOUT_CRLF" value="false" />
@@ -145,10 +161,28 @@
         <option value="$PROJECT_DIR$/src/稀疏数组/SparesArray.java" />
         <option value="$PROJECT_DIR$/src/队列/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/队列/CircleArrayQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/队列/ArrayQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/链表/SingleLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/链表/DoubleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/链表/Josephu.java" />
+        <option value="$PROJECT_DIR$/src/链表/DoubleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/队列/ArrayQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/栈/MyStackByLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/栈/MyStack.java" />
+        <option value="$PROJECT_DIR$/src/栈/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/递归/MiGong.java" />
+        <option value="$PROJECT_DIR$/src/排序/ArrayTools.java" />
+        <option value="$PROJECT_DIR$/src/排序/选择排序.java" />
+        <option value="$PROJECT_DIR$/src/排序/冒泡排序.java" />
+        <option value="$PROJECT_DIR$/src/排序/希尔排序.java" />
+        <option value="$PROJECT_DIR$/src/排序/快速排序.java" />
+        <option value="$PROJECT_DIR$/src/排序/插入排序.java" />
+        <option value="$PROJECT_DIR$/src/排序/归并排序.java" />
+        <option value="$PROJECT_DIR$/src/排序/基数排序.java" />
+        <option value="$PROJECT_DIR$/src/排序/堆排序.java" />
+        <option value="$PROJECT_DIR$/src/递归/Queen8.java" />
+        <option value="$PROJECT_DIR$/src/查找算法/线性查找.java" />
+        <option value="$PROJECT_DIR$/src/查找算法/二分查找.java" />
+        <option value="$PROJECT_DIR$/src/查找算法/插值查找.java" />
+        <option value="$PROJECT_DIR$/src/查找算法/斐波拉契查找.java" />
       </list>
     </option>
   </component>
@@ -166,10 +200,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="510" />
-    <option name="y" value="125" />
-    <option name="width" value="1350" />
-    <option name="height" value="690" />
+    <option name="x" value="5" />
+    <option name="y" value="45" />
+    <option name="width" value="1800" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -179,8 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,26 +230,34 @@
               <item name="数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
               <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="查找算法" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581587714500" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585036371645" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SpringBoot_Blog/blog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1526971" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="查找算法" />
+      <recent name="排序" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,13 +271,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Josephu">
-    <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="队列.ArrayQueueDemo" />
+  <component name="RunManager" selected="Application.斐波拉契查找">
+    <configuration name="归并排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.归并排序" />
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="队列.*" />
+          <option name="PATTERN" value="排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,12 +285,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="队列.CircleArrayQueueDemo" />
+    <configuration name="线性查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="查找算法.线性查找" />
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="队列.*" />
+          <option name="PATTERN" value="查找算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="链表.DoubleLinkedList" />
+    <configuration name="二分查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="查找算法.二分查找" />
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="链表.*" />
+          <option name="PATTERN" value="查找算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Josephu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="链表.Josephu" />
+    <configuration name="插值查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="查找算法.插值查找" />
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="链表.*" />
+          <option name="PATTERN" value="查找算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,12 +324,168 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="链表.SingleLinkedList" />
+    <configuration name="斐波拉契查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="查找算法.斐波拉契查找" />
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="链表.*" />
+          <option name="PATTERN" value="查找算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="插入排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.插入排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="希尔排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.希尔排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="快速排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.快速排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="选择排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.选择排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="堆排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.堆排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="插入排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.插入排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="希尔排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.希尔排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="快速排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.快速排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="归并排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.归并排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="基数排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.基数排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="堆排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.堆排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="选择排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.选择排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,19 +494,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayQueueDemo" />
-      <item itemvalue="Application.CircleArrayQueueDemo" />
-      <item itemvalue="Application.SingleLinkedList" />
-      <item itemvalue="Application.DoubleLinkedList" />
-      <item itemvalue="Application.Josephu" />
+      <item itemvalue="Application.归并排序" />
+      <item itemvalue="Application.线性查找" />
+      <item itemvalue="Application.二分查找" />
+      <item itemvalue="Application.插值查找" />
+      <item itemvalue="Application.斐波拉契查找" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Josephu" />
-        <item itemvalue="Application.DoubleLinkedList" />
-        <item itemvalue="Application.SingleLinkedList" />
-        <item itemvalue="Application.CircleArrayQueueDemo" />
-        <item itemvalue="Application.ArrayQueueDemo" />
+        <item itemvalue="Application.斐波拉契查找" />
+        <item itemvalue="Application.插值查找" />
+        <item itemvalue="Application.二分查找" />
+        <item itemvalue="Application.线性查找" />
+        <item itemvalue="Application.归并排序" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +526,25 @@
       <workItem from="1581486758507" duration="1257000" />
       <workItem from="1581569777699" duration="5781000" />
       <workItem from="1581576168294" duration="52000" />
-      <workItem from="1581576275203" duration="11446000" />
+      <workItem from="1581576275203" duration="14899000" />
+      <workItem from="1581743489756" duration="16403000" />
+      <workItem from="1581921223221" duration="17526000" />
+      <workItem from="1582089480164" duration="19636000" />
+      <workItem from="1582176238752" duration="1617000" />
+      <workItem from="1582357337929" duration="1796000" />
+      <workItem from="1582545203257" duration="1138000" />
+      <workItem from="1582706304927" duration="12745000" />
+      <workItem from="1583053288310" duration="1271000" />
+      <workItem from="1583125378110" duration="2115000" />
+      <workItem from="1583217882124" duration="610000" />
+      <workItem from="1583308527823" duration="764000" />
+      <workItem from="1583400211106" duration="1329000" />
+      <workItem from="1583468545903" duration="501000" />
+      <workItem from="1584080749031" duration="5317000" />
+      <workItem from="1584250005182" duration="1167000" />
+      <workItem from="1584448671922" duration="602000" />
+      <workItem from="1584588697942" duration="591000" />
+      <workItem from="1585025891926" duration="10052000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组">
       <created>1580463826507</created>
@@ -366,17 +581,52 @@
       <option name="project" value="LOCAL" />
       <updated>1581578858372</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="约瑟夫环问题">
+      <created>1581593365207</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581593365207</updated>
+    </task>
+    <task id="LOCAL-00007" summary="栈">
+      <created>1581783983742</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581783983742</updated>
+    </task>
+    <task id="LOCAL-00008" summary="排序">
+      <created>1582120881738</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582120881738</updated>
+    </task>
+    <task id="LOCAL-00009" summary="递归&#10;八皇后&#10;迷宫问题">
+      <created>1582120915557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582120915557</updated>
+    </task>
+    <task id="LOCAL-00010" summary="排序">
+      <created>1582731490668</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582731490669</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59013000" />
+    <option name="totallyTimeSpent" value="157646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1508043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1300268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,8 +635,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24255319" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42269504" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29787233" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18297872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -404,6 +654,8 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" id="PlantUML" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +679,11 @@
     <MESSAGE value="数组实现队列和环形队列" />
     <MESSAGE value="单向链表" />
     <MESSAGE value="双向链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="双向链表" />
+    <MESSAGE value="约瑟夫环问题" />
+    <MESSAGE value="栈" />
+    <MESSAGE value="递归&#10;八皇后&#10;迷宫问题" />
+    <MESSAGE value="排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="排序" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Scanner.java">
@@ -444,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/字符串匹配算法/RK匹配算法.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/稀疏数组/SparesArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2112">
@@ -458,55 +707,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/队列/CircleArrayQueueDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/栈.java" />
+    <entry file="file://$PROJECT_DIR$/src/链表/Josephu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+        <state relative-caret-position="103">
+          <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/队列/ArrayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1279">
-          <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+        <state relative-caret-position="1596">
+          <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/字符串匹配算法/RK匹配算法.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/栈/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="137" column="34" lean-forward="true" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/栈/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/递归/MiGong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/ArrayTools.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6466">
+          <caret line="137" column="29" lean-forward="true" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/链表/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="181" column="50" lean-forward="true" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-629">
+          <caret line="127" column="6" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/队列/CircleArrayQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/递归/Queen8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/链表/DoubleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="169" column="30" lean-forward="true" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+        <state relative-caret-position="631">
+          <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/Josephu.java">
+    <entry file="file://$PROJECT_DIR$/src/栈/MyStackByLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/选择排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/插入排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/希尔排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/快速排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/归并排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/基数排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="43" column="49" lean-forward="true" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/堆排序.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#1796#1797#0" expanded="true" />
-            <element signature="e#1824#1825#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#1920#1921#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#1978#1979#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-          </folding>
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/冒泡排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/查找算法/线性查找.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/查找算法/插值查找.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/查找算法/二分查找.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/查找算法/斐波拉契查找.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>

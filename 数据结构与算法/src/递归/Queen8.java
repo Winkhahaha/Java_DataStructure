@@ -18,6 +18,7 @@ public class Queen8 {
     private static void check(int n){
         if (n == max){
             print();
+            count++;    // 计一个解法
             return;
         }
         for (int i = 0; i < max; i++) {
@@ -45,7 +46,6 @@ public class Queen8 {
     }
 
     private static void print() {
-        count++;
         for (int i : arr) {
             System.out.print(i + "  ");
         }
