@@ -42,22 +42,22 @@ public class ThreadedBinaryTree {
     }
 
     // 遍历中序线索化二叉树
-    public void threadedList(){
+    public void threadedList() {
         // 定义一个变量,存储当前遍历到的节点
         TreeNode node = root;
-        while(node!=null){
+        while (node != null) {
             // 循环找到leftType == 1的节点
             // 当leftType == 1,说明该节点是线索化处理后的
-            while (node.getLeftType() == 0){
+            while (node.getLeftType() == 0) {
                 node = node.getLeft();
             }
             // 打印当前节点
-            System.out.print(node.getValue()+" ");
+            System.out.print(node.getValue() + " ");
             // 如果当前节点的右节点指向后继节点,就一直输出
-            while (node.getRightType() == 1){
-               // 获取到当前节点的后继节点
+            while (node.getRightType() == 1) {
+                // 获取到当前节点的后继节点
                 node = node.getRight();
-                System.out.print(node.getValue()+" ");
+                System.out.print(node.getValue() + " ");
             }
             // 替换这个遍历的节点
             node = node.getRight();
