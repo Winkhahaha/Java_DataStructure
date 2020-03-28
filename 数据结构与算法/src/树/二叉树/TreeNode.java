@@ -191,12 +191,12 @@ public class TreeNode {
             if (this.left.left != null && this.left.right != null) {
                 this.left.left.right = this.left.right; // 会出现覆盖问题
                 this.left = this.left.left;
-            } else if (this.left.left == null || this.left.right == null) {
+            } else if (this.left.left != null || this.left.right != null) {
+                // 3.当前节点的子节点下再无任何子树(即叶子节点)
+                this.left = null;
+            } else {
                 // 2.若它下面只有一个子节点,就进行该判断:有左加左,无左加右
                 this.left = (this.left.left == null ? this.left.right : this.left.left);
-            } else {
-                // 3.当前节点的子节点下再无任何子树
-                this.left = null;
             }
             return;
         }
