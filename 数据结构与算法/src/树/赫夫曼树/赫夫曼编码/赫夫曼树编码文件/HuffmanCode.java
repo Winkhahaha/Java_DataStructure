@@ -360,7 +360,6 @@ public class HuffmanCode {
             Node parent = new Node(null, leftNode.weight + rightNode.weight);
             parent.left = leftNode;
             parent.right = rightNode;
-
             //将已经处理的两颗二叉树从nodes删除
             nodes.remove(leftNode);
             nodes.remove(rightNode);

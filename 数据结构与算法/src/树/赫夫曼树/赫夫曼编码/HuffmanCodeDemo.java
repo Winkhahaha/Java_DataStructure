@@ -211,16 +211,5 @@ public class HuffmanCodeDemo {
         return bytes;
     }
 
-    // 压缩文件
-    public static void zipFile(String src, String dst) throws IOException {
-        // 创建输入流
-        FileInputStream inputStream = new FileInputStream(src);
-        // 创建和原文件一样大小的byte[];
-        byte[] b = new byte[inputStream.available()];
-        // 读取文件
-        inputStream.read(b);
-        inputStream.close();
-        //
-    }
 }
 
