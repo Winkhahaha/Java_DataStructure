@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d0e055d-e90d-4667-b09f-adb3bc651633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/树/二叉排序树/BinarySortTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/树/二叉排序树/BinarySortTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/树/二叉排序树/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树/AVL树/AVLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树/AVL树/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树/AVL树/AVLTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/树/二叉树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/二叉树/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/树/赫夫曼树/赫夫曼编码/HuffmanCodeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/赫夫曼树/赫夫曼编码/HuffmanCodeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/树/赫夫曼树/赫夫曼编码/赫夫曼树编码文件/HuffmanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/赫夫曼树/赫夫曼编码/赫夫曼树编码文件/HuffmanCode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +21,20 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="209" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-808470347">
@@ -58,7 +69,7 @@
     <session id="1989655583">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.2" value="3" />
@@ -68,85 +79,64 @@
           <entry key="project.open.time.27" value="3" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="166" />
+          <entry key="java" value="173" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="166" />
+          <entry key="JAVA" value="173" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="29997" />
-          <entry key="txt" value="109" />
+          <entry key="java" value="31624" />
+          <entry key="txt" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="29997" />
-          <entry key="PLAIN_TEXT" value="109" />
+          <entry key="JAVA" value="31624" />
+          <entry key="PLAIN_TEXT" value="117" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/树/AVL树/AVLTreeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/树/AVL树/AVLNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1069">
+              <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/树/二叉排序树/BinarySortTreeDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/树/AVL树/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/树/二叉排序树/BinarySortTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="76" column="5" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="76" selection-end-column="5" />
-              <folding>
-                <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/树/二叉排序树/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="184" column="20" lean-forward="true" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="20" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="113">
+              <caret line="66" column="77" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -173,9 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/字符串匹配算法/RK匹配算法.java" />
-        <option value="$PROJECT_DIR$/src/稀疏数组/SparesArray.java" />
-        <option value="$PROJECT_DIR$/src/队列/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/队列/CircleArrayQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/链表/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/链表/Josephu.java" />
@@ -224,6 +211,9 @@
         <option value="$PROJECT_DIR$/src/树/二叉排序树/BinarySortTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/树/二叉排序树/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/树/二叉树/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/树/AVL树/AVLNode.java" />
+        <option value="$PROJECT_DIR$/src/树/AVL树/AVLTreeDemo.java" />
+        <option value="$PROJECT_DIR$/src/树/AVL树/AVLTree.java" />
       </list>
     </option>
   </component>
@@ -260,9 +250,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,14 +276,14 @@
               <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="树" type="462c0819:PsiDirectoryNode" />
-              <item name="二叉排序树" type="462c0819:PsiDirectoryNode" />
+              <item name="AVL树" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
               <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="树" type="462c0819:PsiDirectoryNode" />
-              <item name="二叉树" type="462c0819:PsiDirectoryNode" />
+              <item name="二叉排序树" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +294,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585400851666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585484636865" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/lombok.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -316,6 +306,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="树.AVL树" />
       <recent name="树.赫夫曼树.赫夫曼编码" />
       <recent name="查找算法" />
       <recent name="排序" />
@@ -338,13 +329,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySortTreeDemo">
+  <component name="RunManager" selected="Application.AVLTreeDemo">
+    <configuration name="AVLTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="树.AVL树.AVLTreeDemo" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="树.AVL树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="树.二叉排序树.BinarySortTreeDemo" />
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="树.二叉排序树.*" />
+          <option name="PATTERN" value="树.二叉排序树.TreeNode" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,19 +382,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HuffmanTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="树.赫夫曼树.HuffmanTreeDemo" />
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="树.赫夫曼树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadedBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="树.线索二叉树.ThreadedBinaryTreeDemo" />
       <module name="数据结构与算法" />
@@ -404,8 +395,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="快速排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.快速排序" />
+    <configuration name="二分查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="查找算法.二分查找" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="查找算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="斐波拉契查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="查找算法.斐波拉契查找" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="查找算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="插入排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.插入排序" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="希尔排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.希尔排序" />
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
@@ -521,72 +551,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="二分查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="查找算法.二分查找" />
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="查找算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="斐波拉契查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="查找算法.斐波拉契查找" />
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="查找算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="插入排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.插入排序" />
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="希尔排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.希尔排序" />
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ThreadedBinaryTreeDemo" />
-      <item itemvalue="Application.HuffmanTreeDemo" />
       <item itemvalue="Application.HuffmanCodeDemo" />
       <item itemvalue="Application.HuffmanCode" />
       <item itemvalue="Application.BinarySortTreeDemo" />
+      <item itemvalue="Application.AVLTreeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLTreeDemo" />
         <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanCodeDemo" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.ThreadedBinaryTreeDemo" />
-        <item itemvalue="Application.HuffmanTreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -628,7 +606,8 @@
       <workItem from="1585107221491" duration="21287000" />
       <workItem from="1585201378530" duration="17573000" />
       <workItem from="1585287670176" duration="23322000" />
-      <workItem from="1585379423751" duration="16364000" />
+      <workItem from="1585379423751" duration="16642000" />
+      <workItem from="1585473045966" duration="8054000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组">
       <created>1580463826507</created>
@@ -777,17 +756,37 @@
       <option name="project" value="LOCAL" />
       <updated>1585315165494</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="赫夫曼编码">
+      <created>1585400850225</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1585400850225</updated>
+    </task>
+    <task id="LOCAL-00023" summary="二叉树">
+      <created>1585400867021</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1585400867021</updated>
+    </task>
+    <task id="LOCAL-00024" summary="二叉排序树">
+      <created>1585400885608</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1585400885608</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253422000" />
+    <option name="totallyTimeSpent" value="261754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19638069" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19906166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -796,7 +795,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" x="22" y="229" width="1492" height="366" id="Run" order="2" visible="true" weight="0.30212766" />
+      <window_info active="true" anchor="bottom" x="22" y="229" width="1492" height="366" id="Run" order="2" visible="true" weight="0.34893617" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30212766" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -811,7 +810,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
@@ -885,24 +884,11 @@
     <MESSAGE value="顺序存储二叉树" />
     <MESSAGE value="线索二叉树" />
     <MESSAGE value="赫夫曼编码" />
-    <option name="LAST_COMMIT_MESSAGE" value="赫夫曼编码" />
+    <MESSAGE value="二叉树" />
+    <MESSAGE value="二叉排序树" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉排序树" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/栈/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/递归/MiGong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/排序/ArrayTools.java" />
     <entry file="file://$PROJECT_DIR$/src/队列/CircleArrayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -1198,9 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4217">
           <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="350" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1208,9 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,10 +1208,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/树/二叉树/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="186" column="60" lean-forward="true" selection-start-line="186" selection-start-column="60" selection-end-line="186" selection-end-column="60" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/树/二叉排序树/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="184" column="20" lean-forward="true" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="20" />
+        <state relative-caret-position="538">
+          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
           <folding>
             <element signature="e#128#129#0" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />
@@ -1253,8 +1246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/树/二叉排序树/BinarySortTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="76" selection-end-column="5" />
+        <state relative-caret-position="607">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#106#107#0" expanded="true" />
             <element signature="e#133#134#0" expanded="true" />
@@ -1264,23 +1257,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/二叉树/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/树/二叉排序树/BinarySortTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="197" column="49" selection-start-line="197" selection-start-column="49" selection-end-line="197" selection-end-column="49" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="271">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/二叉排序树/BinarySortTreeDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/树/AVL树/AVLTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="72">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/树/AVL树/AVLNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/树/AVL树/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="66" column="77" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
         </state>
       </provider>
     </entry>
