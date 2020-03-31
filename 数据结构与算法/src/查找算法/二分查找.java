@@ -12,11 +12,13 @@ public class 二分查找 {
 //        } else {
 //            System.out.println("下标:" + i);
 //        }
-        ArrayList<Integer> list = binarySearchAll(a, 0, a.length - 1, 16);
-        System.out.println("下标集合:" + list);
+//        ArrayList<Integer> list = binarySearchAll(a, 0, a.length - 1, 16);
+//        System.out.println("下标集合:" + list);
+        System.out.println(binarySearch2(a, 6));
     }
 
     // 找到一个满足条件的值就返回
+    // 递归
     private static int binarySearch(int[] a, int left, int right, int value) {
         if (left > right) {
             return -1;
@@ -31,6 +33,25 @@ public class 二分查找 {
         } else {
             return mid;
         }
+    }
+
+    // 二分查找(非递归)
+    private static int binarySearch2(int[] a, int value) {
+        int left = 0;
+        int right = a.length - 1;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (a[mid] == value) {
+                return mid;
+            } else if (a[mid] > value) {
+                // value在mid左边
+                right = mid - 1;
+            } else if (a[mid] < value) {
+                // value在mid右边
+                left = mid + 1;
+            }
+        }
+        return -1;
     }
 
     // 找出数组中所有的和value一样的值的下标
