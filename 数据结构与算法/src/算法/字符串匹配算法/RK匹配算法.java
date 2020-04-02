@@ -1,4 +1,4 @@
-package 字符串匹配算法;
+package 算法.字符串匹配算法;
 
 public class RK匹配算法 {
     public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package 分治算法;
+package 算法.分治算法;
 
 public class 汉诺塔 {
     private static int count = 0;   // 记录移动次数

@@ -350,7 +350,7 @@ public class HuffmanCode {
     private static Node createHuffmanTree(List<Node> nodes) {
 
         while (nodes.size() > 1) {
-            //排序, 从小到大
+            //算法.排序, 从小到大
             Collections.sort(nodes);
             //取出第一颗最小的二叉树
             Node leftNode = nodes.get(0);

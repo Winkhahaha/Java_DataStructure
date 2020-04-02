@@ -1,4 +1,4 @@
-package 排序;
+package 算法.排序;
 
 import java.util.ArrayList;
 import java.util.Arrays;
