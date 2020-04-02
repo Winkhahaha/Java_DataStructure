@@ -50,7 +50,7 @@ public class 背包问题 {
             }
             System.out.println();
         }
-        System.out.println("取了哪些商品?");
+        System.out.println("放了哪些商品?");
         // 遍历最后的放入情况
         int i = path.length - 1;  // 行最大下标
         int j = path[0].length - 1;   // 列最大下标
