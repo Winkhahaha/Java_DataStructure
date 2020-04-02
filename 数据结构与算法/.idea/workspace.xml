@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d0e055d-e90d-4667-b09f-adb3bc651633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/算法/动态规划/背包问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/算法/字符串匹配算法/KMP算法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/算法/字符串匹配算法/暴力匹配.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/分治算法/汉诺塔.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/分治算法/汉诺塔.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/分治算法/汉诺塔.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/字符串匹配算法/RK匹配算法.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/字符串匹配算法/RK匹配算法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/字符串匹配算法/RK匹配算法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/冒泡排序.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/排序/冒泡排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/基数排序.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/基数排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/排序/基数排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/堆排序.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/堆排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/排序/堆排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/希尔排序.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/希尔排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/排序/希尔排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/归并排序.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/排序/归并排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/快速排序.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/快速排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/排序/快速排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/插入排序.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/插入排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/排序/插入排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/选择排序.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/选择排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/排序/选择排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/树/赫夫曼树/赫夫曼编码/赫夫曼树编码文件/HuffmanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/赫夫曼树/赫夫曼编码/赫夫曼树编码文件/HuffmanCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/数据结构与算法/字符串匹配算法/RK匹配算法.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,26 +90,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="196" />
+          <entry key="java" value="201" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="196" />
+          <entry key="JAVA" value="201" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="35224" />
-          <entry key="txt" value="156" />
+          <entry key="java" value="36016" />
+          <entry key="txt" value="158" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="35224" />
-          <entry key="PLAIN_TEXT" value="156" />
+          <entry key="JAVA" value="36016" />
+          <entry key="PLAIN_TEXT" value="158" />
         </counts>
       </usages-collector>
     </session>
@@ -136,10 +117,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/算法/动态规划/背包问题.java">
+        <entry file="file://$PROJECT_DIR$/src/算法/字符串匹配算法/暴力匹配.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/算法/字符串匹配算法/RK匹配算法.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/算法/字符串匹配算法/KMP算法.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-486">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -166,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/栈/MyStack.java" />
-        <option value="$PROJECT_DIR$/src/栈/Calculator.java" />
         <option value="$PROJECT_DIR$/src/递归/MiGong.java" />
         <option value="$PROJECT_DIR$/src/排序/ArrayTools.java" />
         <option value="$PROJECT_DIR$/src/排序/选择排序.java" />
@@ -217,6 +214,8 @@
         <option value="$PROJECT_DIR$/src/图/Graph.java" />
         <option value="$PROJECT_DIR$/src/动态规划/背包问题.java" />
         <option value="$PROJECT_DIR$/src/算法/动态规划/背包问题.java" />
+        <option value="$PROJECT_DIR$/src/算法/字符串匹配算法/KMP算法.java" />
+        <option value="$PROJECT_DIR$/src/算法/字符串匹配算法/暴力匹配.java" />
       </list>
     </option>
   </component>
@@ -266,6 +265,19 @@
               <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="字符串匹配算法" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -277,7 +289,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585810879132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585820319569" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/lombok.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -312,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.背包问题">
+  <component name="RunManager" selected="Application.暴力匹配">
     <configuration name="二分查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="查找算法.二分查找" />
       <module name="数据结构与算法" />
@@ -339,25 +351,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AVLTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="树.AVL树.AVLTreeDemo" />
+    <configuration name="暴力匹配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="算法.字符串匹配算法.暴力匹配" />
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="树.AVL树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="树.二叉排序树.BinarySortTreeDemo" />
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="树.二叉排序树.TreeNode" />
+          <option name="PATTERN" value="算法.字符串匹配算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,6 +370,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="图.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KMP算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="算法.字符串匹配算法.KMP算法" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="算法.字符串匹配算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -522,19 +534,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySortTreeDemo" />
-      <item itemvalue="Application.AVLTreeDemo" />
       <item itemvalue="Application.Graph" />
       <item itemvalue="Application.二分查找" />
       <item itemvalue="Application.背包问题" />
+      <item itemvalue="Application.暴力匹配" />
+      <item itemvalue="Application.KMP算法" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.暴力匹配" />
+        <item itemvalue="Application.KMP算法" />
         <item itemvalue="Application.背包问题" />
         <item itemvalue="Application.二分查找" />
         <item itemvalue="Application.Graph" />
-        <item itemvalue="Application.AVLTreeDemo" />
-        <item itemvalue="Application.BinarySortTreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -581,7 +593,7 @@
       <workItem from="1585550136111" duration="12873000" />
       <workItem from="1585642991591" duration="4871000" />
       <workItem from="1585740901401" duration="1152000" />
-      <workItem from="1585804371658" duration="4069000" />
+      <workItem from="1585804371658" duration="10520000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组">
       <created>1580463826507</created>
@@ -779,16 +791,24 @@
       <option name="project" value="LOCAL" />
       <updated>1585656758490</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="算法">
+      <created>1585811336976</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1585811336976</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287125000" />
+    <option name="totallyTimeSpent" value="293576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -797,7 +817,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" x="22" y="229" width="1492" height="366" id="Run" order="2" weight="0.4283688" />
+      <window_info active="true" anchor="bottom" x="22" y="229" width="1492" height="366" id="Run" order="2" visible="true" weight="0.28936172" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30212766" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -893,30 +913,10 @@
     <MESSAGE value="图和图的深度与广度优先遍历" />
     <MESSAGE value="二分查找的非递归写法" />
     <MESSAGE value="分治算法之汉诺塔" />
-    <option name="LAST_COMMIT_MESSAGE" value="分治算法之汉诺塔" />
+    <MESSAGE value="算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/递归/斐波拉契数列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/栈/MyStackByLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/查找算法/斐波拉契查找.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1488">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/链表/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1488">
@@ -1236,8 +1236,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/算法/动态规划/背包问题.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
+        <state relative-caret-position="391">
           <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/算法/字符串匹配算法/RK匹配算法.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/算法/字符串匹配算法/KMP算法.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/算法/字符串匹配算法/暴力匹配.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
