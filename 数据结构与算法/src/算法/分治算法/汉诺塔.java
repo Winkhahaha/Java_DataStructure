@@ -4,7 +4,7 @@ public class 汉诺塔 {
     private static int count = 0;   // 记录移动次数
 
     public static void main(String args[]) {
-        hanoTower(5, 'A', 'B', 'C');
+        hanoTower(3, 'A', 'B', 'C');
     }
 
     /**
