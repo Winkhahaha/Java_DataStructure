@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d0e055d-e90d-4667-b09f-adb3bc651633" name="Default Changelist" comment="">
+    <list default="true" id="5d0e055d-e90d-4667-b09f-adb3bc651633" name="Default Changelist" comment="查找算法">
+      <change afterPath="$PROJECT_DIR$/src/算法/普利姆算法/PrimAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/算法/贪心算法/GreedAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,7 +76,7 @@
           <entry key="project.open.time.25" value="3" />
           <entry key="project.open.time.26" value="3" />
           <entry key="project.open.time.27" value="3" />
-          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.28" value="3" />
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.31" value="1" />
@@ -83,42 +85,51 @@
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="209" />
+          <entry key="java" value="211" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="209" />
+          <entry key="JAVA" value="211" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="36022" />
-          <entry key="txt" value="195" />
+          <entry key="java" value="38058" />
+          <entry key="txt" value="199" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="36022" />
-          <entry key="PLAIN_TEXT" value="195" />
+          <entry key="JAVA" value="38058" />
+          <entry key="PLAIN_TEXT" value="199" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/树/赫夫曼树/HuffmanNode.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/算法/贪心算法/GreedAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="425">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/算法/普利姆算法/PrimAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-196">
+              <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -145,8 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/排序/ArrayTools.java" />
-        <option value="$PROJECT_DIR$/src/排序/选择排序.java" />
         <option value="$PROJECT_DIR$/src/排序/冒泡排序.java" />
         <option value="$PROJECT_DIR$/src/排序/希尔排序.java" />
         <option value="$PROJECT_DIR$/src/排序/快速排序.java" />
@@ -196,6 +205,8 @@
         <option value="$PROJECT_DIR$/src/算法/字符串匹配算法/暴力匹配.java" />
         <option value="$PROJECT_DIR$/src/算法/分治算法/汉诺塔.java" />
         <option value="$PROJECT_DIR$/src/算法/动态规划/背包问题.java" />
+        <option value="$PROJECT_DIR$/src/算法/贪心算法/GreedAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/算法/普利姆算法/PrimAlgorithm.java" />
       </list>
     </option>
   </component>
@@ -219,10 +230,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="65" />
-    <option name="width" value="2250" />
-    <option name="height" value="1104" />
+    <option name="x" value="30" />
+    <option name="y" value="-19" />
+    <option name="width" value="1807" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -249,14 +260,7 @@
               <item name="数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
               <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="树" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
-              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="树" type="462c0819:PsiDirectoryNode" />
-              <item name="赫夫曼树" type="462c0819:PsiDirectoryNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585837665008" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585984138669" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaSE_Network-Reflex/反射" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -304,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Graph">
+  <component name="RunManager" selected="Application.PrimAlgorithm">
     <configuration name="二分查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="算法.查找算法.二分查找" />
       <module name="数据结构与算法" />
@@ -331,12 +335,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GreedAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="算法.贪心算法.GreedAlgorithm" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="算法.贪心算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KMP算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="算法.字符串匹配算法.KMP算法" />
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="算法.字符串匹配算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="算法.普利姆算法.PrimAlgorithm" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="算法.普利姆算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -543,9 +573,13 @@
       <item itemvalue="Application.Graph" />
       <item itemvalue="Application.二分查找" />
       <item itemvalue="Application.KMP算法" />
+      <item itemvalue="Application.GreedAlgorithm" />
+      <item itemvalue="Application.PrimAlgorithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimAlgorithm" />
+        <item itemvalue="Application.GreedAlgorithm" />
         <item itemvalue="Application.KMP算法" />
         <item itemvalue="Application.二分查找" />
         <item itemvalue="Application.Graph" />
@@ -598,6 +632,7 @@
       <workItem from="1585804371658" duration="10540000" />
       <workItem from="1585820771987" duration="5943000" />
       <workItem from="1585920071601" duration="1017000" />
+      <workItem from="1585974313368" duration="8344000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组">
       <created>1580463826507</created>
@@ -837,16 +872,33 @@
       <option name="project" value="LOCAL" />
       <updated>1585822045834</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="查找算法">
+      <created>1585974470119</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1585974470119</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300556000" />
+    <option name="totallyTimeSpent" value="308900000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2124665" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21514745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -855,15 +907,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" x="22" y="229" width="1492" height="366" id="Run" order="2" weight="0.3316913" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30496454" />
+      <window_info active="true" anchor="bottom" x="22" y="229" width="1492" height="366" id="Run" order="2" visible="true" weight="0.38865247" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3432624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.16453901" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932975" weight="0.2" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3617021" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -929,7 +981,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="递归&#10;八皇后&#10;迷宫问题" />
     <MESSAGE value="排序" />
-    <MESSAGE value="查找算法" />
     <MESSAGE value="递归问题" />
     <MESSAGE value="双向链表" />
     <MESSAGE value="RK匹配算法" />
@@ -952,7 +1003,8 @@
     <MESSAGE value="背包问题" />
     <MESSAGE value="汉诺塔" />
     <MESSAGE value="分治思想解决汉诺塔问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="分治思想解决汉诺塔问题" />
+    <MESSAGE value="查找算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="查找算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -963,24 +1015,16 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/算法/贪心算法/GreedAlgorithm.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/排序/堆排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1032">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/顺序存储二叉树/ArrayBinaryTreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/树/顺序存储二叉树/ArrayBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1128">
@@ -1206,14 +1250,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/查找算法/线性查找.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/查找算法/线性查找.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/查找算法/插值查找.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/查找算法/插值查找.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
@@ -1227,7 +1271,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/查找算法/二分查找.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/查找算法/二分查找.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="54" />
@@ -1308,9 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding>
-            <element signature="e#844#856#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1318,6 +1359,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/算法/贪心算法/GreedAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/算法/普利姆算法/PrimAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
         </state>
       </provider>
     </entry>
