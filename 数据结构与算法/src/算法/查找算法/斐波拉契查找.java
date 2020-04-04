@@ -1,4 +1,4 @@
-package 查找算法;
+package 算法.查找算法;
 
 import java.util.Arrays;
 
